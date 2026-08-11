@@ -41,7 +41,8 @@ header{position:fixed;top:0;left:0;right:0;z-index:60;padding:20px 0;transition:
 header.s{background:rgba(250,245,238,.94);backdrop-filter:blur(14px);
   padding:12px 0;box-shadow:0 1px 0 var(--line)}
 .hrow{display:flex;align-items:center;justify-content:space-between;gap:20px}
-.logo{font-family:var(--d);font-size:1.32rem;letter-spacing:.03em;color:var(--cream);transition:.45s var(--ease)}
+.logo{font-family:var(--d);font-size:1.32rem;letter-spacing:.03em;color:var(--cream);transition:.45s var(--ease);
+  display:inline-block;padding:6px 0;margin:-6px 0}
 header.s .logo{color:var(--dark)}
 nav{display:flex;gap:30px;font-size:.83rem;letter-spacing:.1em;text-transform:uppercase}
 nav a{color:rgba(255,255,255,.86);text-decoration:none;transition:.3s}
@@ -51,7 +52,8 @@ nav a:hover{color:var(--gold)}
   font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:.35s}
 header.s .hcta{border-color:var(--gold);color:var(--gold)}
 .hcta:hover{background:var(--gold);border-color:var(--gold);color:#fff}
-.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;
+  padding:15px 12px;margin:-15px -12px;justify-content:center}
 .burger i{width:24px;height:1.5px;background:#fff;display:block;transition:.3s}
 header.s .burger i{background:var(--dark)}
 
@@ -162,7 +164,8 @@ footer{background:var(--dark);color:rgba(255,255,255,.72);padding:clamp(60px,7vw
 footer h3{color:var(--cream);font-size:1.5rem;margin-bottom:16px}
 footer h4{font-size:.73rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-lt);
   margin-bottom:17px;font-family:var(--b);font-weight:500}
-footer a{color:rgba(255,255,255,.72);text-decoration:none;transition:.3s;display:block;margin-bottom:9px}
+footer a{color:rgba(255,255,255,.72);text-decoration:none;transition:.3s;display:block;
+  padding:6px 0;margin-bottom:1px}
 footer a:hover{color:var(--gold-lt)}
 footer p{font-size:.94rem;margin-bottom:9px}
 .fbot{margin-top:52px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);
